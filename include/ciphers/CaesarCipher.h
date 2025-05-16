@@ -1,13 +1,16 @@
 #ifndef CAESARCIPHER_H
 #define CAESARCIPHER_H
+
 #include <string>
+
 class CaesarCipher {
 public:
-    CaesarCipher(int shift);
+    explicit CaesarCipher(int shift);
+    std::string encrypt(const std::string &text) const;
+    std::string decrypt(const std::string &text) const;
 
 private:
-    static int shift_;
-    static char input_;
+    int shift_;
 };
 
-#endif //CAESARCIPHER_H
+#endif // CAESARCIPHER_H

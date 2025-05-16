@@ -41,59 +41,64 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /home/mikayel/CLionProjects/Cipher/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Cipher
+# Object build statements for EXECUTABLE target cipher
 
 
 #############################################
-# Order-only phony target for Cipher
+# Order-only phony target for cipher
 
-build cmake_object_order_depends_target_Cipher: phony || CMakeFiles/Cipher.dir
+build cmake_object_order_depends_target_cipher: phony || CMakeFiles/cipher.dir
 
-build CMakeFiles/Cipher.dir/src/ciphers/CaesarCipher.cpp.o: CXX_COMPILER__Cipher_unscanned_Debug /home/mikayel/CLionProjects/Cipher/src/ciphers/CaesarCipher.cpp || cmake_object_order_depends_target_Cipher
-  DEP_FILE = CMakeFiles/Cipher.dir/src/ciphers/CaesarCipher.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/Cipher.dir
-  OBJECT_FILE_DIR = CMakeFiles/Cipher.dir/src/ciphers
+build CMakeFiles/cipher.dir/src/ciphers/CaesarCipher.cpp.o: CXX_COMPILER__cipher_unscanned_Debug /home/mikayel/CLionProjects/Cipher/src/ciphers/CaesarCipher.cpp || cmake_object_order_depends_target_cipher
+  DEP_FILE = CMakeFiles/cipher.dir/src/ciphers/CaesarCipher.cpp.o.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I/home/mikayel/CLionProjects/Cipher/include
+  OBJECT_DIR = CMakeFiles/cipher.dir
+  OBJECT_FILE_DIR = CMakeFiles/cipher.dir/src/ciphers
 
-build CMakeFiles/Cipher.dir/src/ciphers/VigenereCipher.cpp.o: CXX_COMPILER__Cipher_unscanned_Debug /home/mikayel/CLionProjects/Cipher/src/ciphers/VigenereCipher.cpp || cmake_object_order_depends_target_Cipher
-  DEP_FILE = CMakeFiles/Cipher.dir/src/ciphers/VigenereCipher.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/Cipher.dir
-  OBJECT_FILE_DIR = CMakeFiles/Cipher.dir/src/ciphers
+build CMakeFiles/cipher.dir/src/ciphers/VigenereCipher.cpp.o: CXX_COMPILER__cipher_unscanned_Debug /home/mikayel/CLionProjects/Cipher/src/ciphers/VigenereCipher.cpp || cmake_object_order_depends_target_cipher
+  DEP_FILE = CMakeFiles/cipher.dir/src/ciphers/VigenereCipher.cpp.o.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I/home/mikayel/CLionProjects/Cipher/include
+  OBJECT_DIR = CMakeFiles/cipher.dir
+  OBJECT_FILE_DIR = CMakeFiles/cipher.dir/src/ciphers
 
-build CMakeFiles/Cipher.dir/src/ciphers/XORCipher.cpp.o: CXX_COMPILER__Cipher_unscanned_Debug /home/mikayel/CLionProjects/Cipher/src/ciphers/XORCipher.cpp || cmake_object_order_depends_target_Cipher
-  DEP_FILE = CMakeFiles/Cipher.dir/src/ciphers/XORCipher.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/Cipher.dir
-  OBJECT_FILE_DIR = CMakeFiles/Cipher.dir/src/ciphers
+build CMakeFiles/cipher.dir/src/ciphers/XORCipher.cpp.o: CXX_COMPILER__cipher_unscanned_Debug /home/mikayel/CLionProjects/Cipher/src/ciphers/XORCipher.cpp || cmake_object_order_depends_target_cipher
+  DEP_FILE = CMakeFiles/cipher.dir/src/ciphers/XORCipher.cpp.o.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I/home/mikayel/CLionProjects/Cipher/include
+  OBJECT_DIR = CMakeFiles/cipher.dir
+  OBJECT_FILE_DIR = CMakeFiles/cipher.dir/src/ciphers
 
-build CMakeFiles/Cipher.dir/src/utils/utils.cpp.o: CXX_COMPILER__Cipher_unscanned_Debug /home/mikayel/CLionProjects/Cipher/src/utils/utils.cpp || cmake_object_order_depends_target_Cipher
-  DEP_FILE = CMakeFiles/Cipher.dir/src/utils/utils.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/Cipher.dir
-  OBJECT_FILE_DIR = CMakeFiles/Cipher.dir/src/utils
+build CMakeFiles/cipher.dir/src/main.cpp.o: CXX_COMPILER__cipher_unscanned_Debug /home/mikayel/CLionProjects/Cipher/src/main.cpp || cmake_object_order_depends_target_cipher
+  DEP_FILE = CMakeFiles/cipher.dir/src/main.cpp.o.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I/home/mikayel/CLionProjects/Cipher/include
+  OBJECT_DIR = CMakeFiles/cipher.dir
+  OBJECT_FILE_DIR = CMakeFiles/cipher.dir/src
 
-build CMakeFiles/Cipher.dir/src/main.cpp.o: CXX_COMPILER__Cipher_unscanned_Debug /home/mikayel/CLionProjects/Cipher/src/main.cpp || cmake_object_order_depends_target_Cipher
-  DEP_FILE = CMakeFiles/Cipher.dir/src/main.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/Cipher.dir
-  OBJECT_FILE_DIR = CMakeFiles/Cipher.dir/src
+build CMakeFiles/cipher.dir/src/utils/utils.cpp.o: CXX_COMPILER__cipher_unscanned_Debug /home/mikayel/CLionProjects/Cipher/src/utils/utils.cpp || cmake_object_order_depends_target_cipher
+  DEP_FILE = CMakeFiles/cipher.dir/src/utils/utils.cpp.o.d
+  FLAGS = -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -I/home/mikayel/CLionProjects/Cipher/include
+  OBJECT_DIR = CMakeFiles/cipher.dir
+  OBJECT_FILE_DIR = CMakeFiles/cipher.dir/src/utils
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Cipher
+# Link build statements for EXECUTABLE target cipher
 
 
 #############################################
-# Link the executable Cipher
+# Link the executable cipher
 
-build Cipher: CXX_EXECUTABLE_LINKER__Cipher_Debug CMakeFiles/Cipher.dir/src/ciphers/CaesarCipher.cpp.o CMakeFiles/Cipher.dir/src/ciphers/VigenereCipher.cpp.o CMakeFiles/Cipher.dir/src/ciphers/XORCipher.cpp.o CMakeFiles/Cipher.dir/src/utils/utils.cpp.o CMakeFiles/Cipher.dir/src/main.cpp.o
+build cipher: CXX_EXECUTABLE_LINKER__cipher_Debug CMakeFiles/cipher.dir/src/ciphers/CaesarCipher.cpp.o CMakeFiles/cipher.dir/src/ciphers/VigenereCipher.cpp.o CMakeFiles/cipher.dir/src/ciphers/XORCipher.cpp.o CMakeFiles/cipher.dir/src/main.cpp.o CMakeFiles/cipher.dir/src/utils/utils.cpp.o
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/Cipher.dir
+  OBJECT_DIR = CMakeFiles/cipher.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = Cipher
-  TARGET_PDB = Cipher.dbg
+  TARGET_FILE = cipher
+  TARGET_PDB = cipher.dbg
 
 
 #############################################
@@ -129,7 +134,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/mikayel/CLionProjects/Cipher/cmake-build-debug
 
-build all: phony Cipher
+build all: phony cipher
 
 # =============================================================================
 # Built-in targets
